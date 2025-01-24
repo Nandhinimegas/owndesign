@@ -1,0 +1,808 @@
+
+
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Style the header */
+
+.header {
+  padding: 10px;
+  text-align: top-left;
+  background: 	
+ border-radius: 50%;
+}
+
+  .img{
+    border: 
+    border-radius: 50%;
+    box-shadow: none;
+
+}
+
+
+/* Set a style for the submit BookNow button */
+.BookNow {
+  background-color: #008000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-radius: 12px;
+  font-size:16px;
+  cursor: pointer;
+  opacity: 0.9;
+  
+}
+
+.BookNow:hover {
+  opacity: 1;
+}
+
+
+.bg-image {
+ /* Full height */
+  height: 100%; 
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+ 
+
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.icon-bar {
+  position: relative;
+
+  
+}
+
+.icon-bar a {
+  float: right;
+  text-align: 
+  padding: 6px;
+
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+body { 
+  margin: 0;
+  font-family: Arial;
+	text-align: justify;
+}
+
+
+.header a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 22px;  
+
+}
+
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.header-right {
+  float: right;
+}
+
+.body
+{
+font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=text], input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+  .button {
+  border-radius: 3px;
+  background-image: linear-gradient(to right, orange,blue,green);
+ 
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+	display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+.elementor-175 .elementor-element.elementor-element-6579669a .elementskit-btn {
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 150px;
+    font-weight: 700;
+    word-spacing: 0px;
+    background-color: #FC0000F5;
+}
+.elementor-widget-container .ekit-wid-con a {
+    text-decoration: none;
+}
+ekit-wid-con a:active, .ekit-wid-con a:focus, .ekit-wid-con a:hover, .ekit-wid-con a:visited {
+    text-decoration: none;
+    outline: 0;
+}
+.ekit-wid-con .elementskit-btn {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 15px 30px;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #2575fc;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.ekit-wid-con a, .ekit-wid-con button {
+    text-decoration: none;
+    outline: 0;
+}
+.ekit-wid-con a, .ekit-wid-con b, .ekit-wid-con div, .ekit-wid-con li, .ekit-wid-con ul {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+}
+.whitespace--normal {
+    white-space: normal !important;
+}
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ekit-wid-con .text-left {
+    text-align: left !important;
+}
+.ekit-wid-con .text-left {
+    text-align: left !important;
+}
+.text-left {
+    text-align: left;
+}
+
+
+
+
+
+/* Classes */
+.pancho-bg {
+    background-color:#DE3163  !important;
+}
+.pancho-fg {
+    color: #DE3163 !important;
+}
+.eastBay-bg {
+    background-color:#414C63  !important;
+}
+.eastBay-fg {
+    color: #414C63 !important;
+}
+.snow-bg {
+    background-color: #fafafa !important;
+}
+.snow-fg {
+    color: #fafafa !important;
+}
+.dimGray-fg {
+    color:  #747474 !important;
+}
+.dimGray-bg {
+    background-color: #747474 !important;
+}
+.main-header-photo {
+    height: 475px;
+    background-color: #414C63;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.w-100 {
+    width: 100% !important;
+}
+.navbar {
+    padding: 0 !important;
+    transition: all 1s;
+    border-bottom: .3rem solid #414C63;
+    z-index: 10;
+}
+.nav-item, .dropdown-menu {
+    padding:.8rem;
+    text-align: center;
+}
+.nav-link, .dropdown-item {
+    font-size: 1.8rem;
+    padding: .5rem !important;
+    transition: ease-in .2s;
+    text-decoration: none !important;
+}
+.nav-link.active, .dropdown-item.active {
+    color: #414C63 !important;
+    border: #414C63 dashed 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px#DEBA92;
+    background: #DEBA92;
+    text-decoration: none !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    color: #DEBA92 !important;
+    border: #DEBA92 dashed 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px transparent;
+    background: transparent;
+    text-decoration: none !important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+.small-fg {
+    font-size: 1.2rem !important;
+}
+.show {
+    display: inline-block;
+    animation: hideB .4s ease-in;
+    -webkit-animation: showB .4s ease-in;
+    -moz-animation: showB .4s ease-in;
+    -o-animation: showB .4s ease-in;
+}
+.hide {
+    display: none;
+    animation: hideB .4s ease-in;
+    -webkit-animation: hideB .4s ease-in;
+    -moz-animation: hideB .4s ease-in;
+    -o-animation: hideB .4s ease-in;
+}
+.srv {
+    width: 100%;
+    margin: 2rem auto !important;
+    padding: 0 2rem;
+}
+.srv-head {
+    font-size: 7rem;
+}
+.srv-title {
+    font-size: 2.5rem
+}
+.srv-desc {
+    font-size: 1.8rem
+}
+.btn-srv {
+    color: #414C63 !important;
+    background-color: #DEBA92;
+    padding: .7rem;
+}
+.btn-srv:hover {
+    color: #DEBA92 !important;
+    background-color: #414C63;
+}
+.img-bg {
+    background-size: cover;;
+    background-position: center;
+    background-color: #414C63;
+}
+.aboutus-prg {
+    font-size:30px;
+}
+.aboutus-prg-parent {
+    padding: 1rem 5rem
+}
+.swiper-button-prev, .swiper-button-next {
+    background-image: none !important;
+
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.swiper-zoom-container {
+    width: 85% !important;
+}
+.swiper-zoom-container > img {
+    border: #414C63 dashed 3px;
+    border-radius: 10px;
+    
+}
+.swiper-pagination-bullet {
+    background: #414C63 !important;
+    border: dashed #DEBA92 1px;
+    opacity: .8;
+    width: 16px;
+    height: 16px;
+} 
+.swiper-pagination-bullet-active {
+    background: #DEBA92 !important;
+}
+.form-control {
+    border: none;
+    border-bottom: #DEBA92 dashed 3px;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 .2rem rgba(222, 186, 146,.25) !important;
+    border-color: #DEBA92 !important;
+}
+.btn:focus, .btn:active {
+    box-shadow: 0 0 0 .2rem rgba(222, 186, 146,.25) !important;
+}
+.contact {
+    margin-top: 8rem;
+    margin-left: -8rem;
+}
+.page-title {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: rgba(222, 186, 146, .75);
+    position: absolute;
+    bottom: 0;
+}
+.gallery.column > img {
+    width: 100%;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    border: solid .3rem #DEBA92;
+    cursor: pointer;
+}
+#g_img {
+    cursor: zoom-in;
+}
+/* ##Classes## */
+
+
+@media screen and (max-width: 990px) {
+    .brand {
+        width: 100% !important;
+    }
+    .navbar-toggler-scrolled {
+        text-align: right;
+        width: calc(100% - 210px);
+    }
+    .aboutus-prg {
+        font-size:25px;
+    }
+    .contact {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .srv-desc {
+        font-size: 1.4rem
+    }
+    .srv-title {
+        font-size: 2rem
+    }
+    .aboutus-prg {
+        font-size:20px;
+    }
+    .aboutus-prg-parent {
+        padding: 1rem 1rem !important;
+    }
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+
+
+
+/* Top Categories Section */
+#top-cards {
+    width: 100%;
+    background: #F5FFFA;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 30px ; 
+}
+
+#top-cards .heading2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#top-cards .container {
+    margin-top: 10px;
+}
+
+#container-bg {
+		width: 100%;
+    background: #f7f5f2;
+}
+
+#id01 {
+		width: 100%;
+    background-image:  linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
+}
+/*-------------------alteration&repair---------------*/
+ul.a {
+  list-style-type: square;
+font-family:Book Antiqua; font-size:20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+font-family:Comic Sans MS; font-size:20px;
+}
+
+/*--------------------------------bridal---------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.w3-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*----------------------------------formal------------------*/
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+
+
+/*-------------------------------------------MainGallery---------------------------*/
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-slide {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.left-slide > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.left-slide h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+
+.right-slide {
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.right-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+.slider-container .action-buttons button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+}
+
+.slider-container .action-buttons .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.slider-container .action-buttons .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
