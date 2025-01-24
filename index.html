@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"
+	prefix="og: https://ogp.me/ns#" >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="css/style1.css"> 
+        <link rel="icon" type="image/x-icon" href="C:\NANDHU\SAMPLE\tailorshop-master\img\sewing.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+		<title> Selvi Tailoring </title>
+
+       
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+<body>
+<head>
+<div class="w3-top">
+  
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+
+<img width="58" height="58" src="C:\NANDHU\SAMPLE\tailorshop-master\img\sewing.png" type="image/x-icon">
+			<i  style="font-size:23px; text-shadow: 2px 2px 5px  red;"><span class="font-ta color-anim">செல்வி தையல் மையம்</span></i>
+
+    <!------------------------------------ Right-sided navbar links ----------------------->
+
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+      <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="services.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SERVICES</a></button>
+      <a href="gallery.html" class="w3-bar-item w3-button"><i class="fa fa-photo"></i> GALLERY</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+              <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div></div>
+
+<!---------------------- Sidebar on small screens when clicking the menu icon ----------------------------->
+
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16"> ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="aboutus.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="Services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>          
+
+    
+<!----------------------------------------Booknow----------------------------------->
+
+<div id="id01" class="modal">
+ <form class="modal-content animate" action="/action_page.php" method="post" style="background-color: #FFF8DC;">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+      <img src="C:\NANDHU\SAMPLE\tailorshop-master\img\profile.png" alt="profile" class="profile" width="80" height="80">
+    </div>  
+    <div class="container">
+      <label for="name"><b>NAME</b></label>
+      <input type="text" placeholder="Enter your name" name="name" required>
+
+	<label for="mail id"><b>E-MailID</b></label>
+      <input type="text" placeholder="Enter your email id" name="mail id" required>
+
+      <label for="add"><b>Address</b></label>
+
+      <input type="text" placeholder="Enter your address" name="add" required>
+
+	<label for="contact"><b>CONTACTNUMBER</b></label>
+     	 <input type="number" placeholder="Enter your contact number" name="number" required>
+
+	<label for="fabric"><b>Fabric is for whom/what</b></label><br><br>
+
+	
+     	 <input type="checkbox" id="Men" name="Men" value="Men" required>
+	<label for="men"><b>Men's</b></label><br>
+
+	
+     	 <input type="checkbox" id="women" name="women" value="women" required>
+	<label for="women"><b>Women's</b></label><br>
+
+	
+     	 <input type="checkbox" id="kids" name="kids" value="kids" required>
+	<label for="kids"><b>Kids</b></label><br>
+
+	
+     	 <input type="checkbox" id="Household" name="Household" value="Household" required>
+	<label for="Household"><b>Households</b></label><br><br>
+
+
+	<label for=""><b>Fabric Details</b></label><br>
+      <input type="text" placeholder="Any Specification/details you want to share with us" name="details" required>
+	
+			<br>
+
+      <button type="submit" class="BookNow"><b>Book Now</b></button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+	<div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          </div>
+  </form>
+</div></div></div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+		
+
+</body>
+
+<!------------------------------------------------ Image header ------------------------------>
+
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="C:\NANDHU\SAMPLE\tailorshop-master\img\bg1.jpg" alt="Fashion Blog" width="1600" height="500">
+    <div class="w3-display-right w3-padding-large">
+	<h1 class="w3-text-white">@</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small" style="text-shadow: 4px 8px red;"><b>Selvi Tailoring Center</b></h1>
+	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class=" button"><span><b>BOOK NOW</b> </span></button>
+   </div>
+  </header>
+	<p class="w3-center" style=" font-size:16px; color:Red;">சிறந்த தையல் அனுபவத்தை அனுபவியுங்கள், உங்கள் தையல்காரரை எங்களிடம் முன்பதிவு செய்ய<span><b> "இப்போதே முன்பதிவு செய்" </b> </span>பொத்தானைக் கிளிக் செய்யவும்.<p>
+<hr>
+<!--------------------------------------- About Section ----------------------------------->
+
+  <div class="w3-row w3-padding-42" id="about">
+    <div class="w3-col m6 w3-padding-large">
+     <img src="C:\NANDHU\SAMPLE\tailorshop-master\img\aboutus.jpg"  class="w3-round w3-image" alt="Table Setting">
+    </div>
+<div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center" style="font-family:Elephant; font-size:42px;">About Us</h1><br>
+      <h5 class="w3-center" style="font-family:Comic Sans MS; font-size:22px;"> Our Stiching Progress since 1995</h5>
+      <p class="w3-large">Our aims at providing hassle free and enjoyable tailoring experience with all new designs and patterns with a team of talented designers. We provides amazing tailoring experience with one stop solution for all kind of stitching works. We provide stitching services with customisable designs for salwar suits, blouses, kurtas, bottoms, western wear and kids wear as per customers measurement.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Experience the best TAILORING, ALTERATION, & WEDDING COLLECTION services at your need of execptation & Deliver at correct time.
+
+We are a unit of well-trained tailors who are specialized in all kind of men’s, women’s, and kids’ tailoring services. Keep chilling on that couch with a coffee and just click that <mark>“Book Now” </mark>button for booking your tailor with us.</p>
+    
+</div>
+  </div>
+ </div>
+<hr>
+
+
+
+
+<!-------------------------------------------levelup skill--------------------------------->
+
+<div class="w3-content w3-container " id="about">
+<div class="w3-center m6 w3-center w3-padding-large">
+<h1 class="w3-large w3-center w3-padding-16" style="font-family:Cooper Black; font-size:42px;">I'm really good at:</h1>
+  <p class="w3-wide"><i class="fa fa-cut" style="font-size:20px;color:red"></i>Cutting</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
+  </div>
+<p class="w3-wide"><i class="fa fa-pencil" style="font-size:20px;color:orange"></i>Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-female" style="font-size:20px;color:green"></i> Stitching</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+</div>
+</div>
+</div>
+<hr>
+
+
+   
+
+
+
+<!------------------------------------- Services ----------------------------->
+
+<section id="container-bg">
+<div class="w3-container" style="padding:16px" id="Services">
+  <h1 class="w3-center" style="font-family:Elephant; font-size:38px;">OUR SERVICES</h1>
+  <p class="w3-center w3-large">Our <span> <i>Online Tailoring Services</i> </span> help you with</p>
+  <div class="w3-row-padding " style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card icon-center-aligin">
+        <img src="C:\NANDHU\SAMPLE\tailorshop-master\img\Ladies.png" alt="Dan" style="width:20%"> 
+        <div class="w3-container">
+          <h3><b>Ladies</b></h3>
+<p>* Blouse<br>
+* Designer Blouse<br>
+* Salwar suit (plain)<br>
+* Designer Salwar Suit<br>
+* Patiala Suit....</p>
+<p><button class="w3-button w3-red w3-block"><i class="fa fa-search-plus""></i> More</button></p>
+         
+</div>
+    </div>
+  </div>
+
+
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card icon-center-aligin">
+        <img src="C:\NANDHU\SAMPLE\tailorshop-master\img\Men.png" alt="Dan" style="width:20%"> 
+        <div class="w3-container">
+          <h3><b>Gentlemen</b></h3>
+ <p>* Shirt &amp; Pant<br>
+* Trouser<br>
+* Men's Suit (2/3 Piece)<br>
+* Kurta &amp; Pajama<br>
+* Pathani Suit....</p>
+<p><button class="w3-button w3-red w3-block"><i class="fa fa-search-plus""></i> More</button></p>
+         
+</div>
+    </div>
+  </div>
+
+
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card icon-center-aligin">
+        <img src="C:\NANDHU\SAMPLE\tailorshop-master\img\Kids.png" alt="Dan" style="width:20%"> 
+        <div class="w3-container">
+          <h3><b>Kids</b></h3>
+<p>* Baby Suits<br>
+* Baba Suits<br>
+* Nappies<br>
+* Frocks<br>
+* Baby Pants....</p>
+<p><button class="w3-button w3-red w3-block"><i class="fa fa-search-plus""></i> More</button></p>
+         
+</div>
+    </div>
+  </div>
+
+
+
+<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card icon-center-aligin">
+        <img src="C:\NANDHU\SAMPLE\tailorshop-master\img\household.jpg" alt="Dan" style="width:20%"> 
+        <div class="w3-container">
+          <h3><b>Household</b></h3>
+<p>* Curtains<br>
+* Sofa Cover<br>
+* Almirah Cover<br>
+* Bed &amp; Pillow covers<br>
+* Other Appliances Covers....</p>
+<p><button class="w3-button w3-red w3-block"><i class="fa fa-search-plus""></i> More</button></p>
+         
+</div>
+    </div>
+  </div>
+
+</div></section>
+		
+ 
+<!-----------------------------------Other Services---------------------------------->
+
+<section class="container text-center" id="top-cards">
+        <div class="heading2" style="font-family:Elephant; font-size:40px;">OTHER <span>SERVICES</span></div>
+        <div class="container">
+            
+<div class="w3-row-padding " style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+<div class="row m-0">
+                <div class="col-lg-6 col-12" data-aos="zoom-out-right" data-aos-duration="1000">
+                    <div class="flex-column srv">
+                        <div class="srv-head eastBay-fg">
+                            <object type="image/svg+xml" data="img/icon-alteration.svg"></object>
+                        </div>
+                        <h2 class="srv-title pancho-fg text-center"><i>Alteration</i></h2>
+                        <p class="srv-desc text-center dimGray-fg" >To support you with all your needs, big or minor.we will customize your request, for a  unique repair.</p>
+                        <a class="btn btn-srv" href="alteration.html">Read More</a>
+                    </div>
+                </div>
+</div></div>
+ <div class="col-lg-6 col-12" data-aos="zoom-out-left" data-aos-duration="1000">
+<div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="flex-column srv">
+                        <div class="srv-head eastBay-fg">
+                            <object type="image/svg+xml" data="img/icon-repaires.svg"></object>
+                        </div>
+                        <h2 class="srv-title pancho-fg text-center"><i>Repairs</i></h2>
+                        <p class="srv-desc text-center dimGray-fg" >Mending is the art and skill of repairing or restoring damaged or worn-out items, especially clothing and textiles. </p>
+                        <a class="btn btn-srv" href="repairs.html">Read More</a>
+                    </div>
+                </div></div>
+
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+
+                <div class="col-lg-6 col-12" style="z-index: 9" data-aos="zoom-out-right" data-aos-duration="1000">
+                    <div class="flex-column srv">
+                        <div class="srv-head eastBay-fg">
+                            <object type="image/svg+xml" data="img/icon-bridal.svg"></object>
+                        </div>
+                        <h2 class="srv-title pancho-fg text-center"><i>Bridal</i></h2>
+                        <p class="srv-desc text-center dimGray-fg">Bridal dress will undoubtedly see some wear.Our premium quality will assist you in good looking.</p>
+                        <a class="btn btn-srv" href="bridal.html">Read More</a>
+                    </div>
+                </div></div><div>
+
+                <div class="col-lg-6 col-12" style="z-index: 9" data-aos="zoom-out-left" data-aos-duration="1000">
+<div class="w3-col l3 m6 w3-margin-bottom">
+                    <div class="flex-column srv">
+                        <div class="srv-head eastBay-fg">
+                            <object type="image/svg+xml" data="img/icon-suit.svg"></object>
+                        </div>
+                        <h2 class="srv-title pancho-fg text-center"><i>Formal</i></h2>
+                        <p class="srv-desc text-center dimGray-fg">Formal attire is clothing that is suitable for events that require a strict dress code in certain workplaces.</p>
+                        <a class="btn btn-srv" href="formal.html">Read More</a>
+                    </div>
+                </div>
+            </div> </div>
+        </section></div> </div>
+
+
+
+<!-----------------------------------------Gallery Section ---------------------------------------->
+
+<h1 style="text-align:center; font-family:Elephant; font-size:42px;">GALLERY</h1><br>
+
+
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color: #556B2F">
+          <h1 style="text-align:center;">Men's section</h1>
+        </div>
+        <div style="background-color: #DB7093">
+          <h1 style="text-align:center;">Kids Wear</h1>
+        </div>
+        <div style="background-color: #252E33">
+          <h1 style="text-align:center;">Salwar's</h1>
+                  </div>
+        <div style="background-color: #FF7F50">
+          <h1 style="text-align:center;">Blouse</h1>
+                  </div>
+      </div>
+      <div class="right-slide">
+        <div style="background-image:url('img/gallery/b1.jpg');"></div>
+	<div style="background-image:url('img/gallery/b2.jpg');">
+	</div><div style="background-image:url('img/gallery/b3.jpg');">
+	</div><div style="background-image:url('img/gallery/b4.jpg');"></div>
+         </div>
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fa fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fa fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+
+<!----------------------------------------- Contact Section -------------------------------->
+
+<div class="w3-container w3-light-grey" style="padding:28px " id="contact">
+  <h1 class="w3-center" style="font-family:Elephant; font-size:42px;">CONTACT US</h1>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:28px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <b>Address:</b> Plot no 24, near Yuvraj Palace, Erode, 226021.</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <b>Phone:</b> 94436 02181</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> <b>Email:</b> selvitailoringcenter@gmail.com</p>
+    <br>
+<form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    
+  </div>
+</div>
+
+
+
+</body>
+
+
+
+<!---------------------------------------------- Footer -------------------------------------------------->
+
+<footer class="w3-center w3-yellow w3-padding-32">
+  
+<a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Created by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Nandhinimegas.Cheri</a></p>
+<i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+			
+</footer>
+<!------------------------------------------------custom script-------------------------------------------->
+<script src="js/main.js"></script>
+<script src="js/maingallery.js"></script>
+
+</html>
